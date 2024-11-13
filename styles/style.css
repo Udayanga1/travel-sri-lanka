@@ -64,9 +64,38 @@ body {
   margin: auto;
 }
 
-.video-container iframe {
+.video-container iframe, .gallery .image-section {
   border-radius: 10px;
   width:840px;
   height:472px;
 }
 
+.gallery h2 {
+  font-family: var(--bodoni-moda-font);
+  font-size: 5.5rem;
+  margin: 1rem auto;
+}
+
+.gallery p {
+  color: var(--dimmed-text-color);
+  font-size: 1.1rem;
+}
+
+.gallery .image-section {
+  display: flex;
+  justify-content: space-between;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  margin: 2rem auto;
+}
+
+.gallery .image-section > div {
+  display: inline-block;
+  overflow: hidden;
+  width: 270px;
+  height: 310px;
+}
+
+.gallery .image-section img {
+  height: 100%;
+  object-fit: cover;
+}
