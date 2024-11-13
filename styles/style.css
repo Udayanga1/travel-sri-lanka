@@ -2,8 +2,71 @@
   --blue-coral: #1b5366;
   --dark-orange: #c16512;
   --light-orange: #f0ab73;
+
+  --roboto-font: "Roboto", serif;
+  --bodoni-moda-font: "Bodoni Moda", serif;
+
+  --dimmed-text-color: rgba(220, 218, 218, 0.81);
 }
 
 body {
   margin: 0;
+  background-color: var(--blue-coral);
+  font-family: var(--roboto-font);
+  text-align: center;
+  color: white;
 }
+
+.hero h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.hero h3,.hero p {
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: var(--dimmed-text-color);
+}
+
+.flag-section {
+  display: flex;
+  justify-content: center;
+  margin: 2rem auto 3rem;
+
+}
+
+.flag-section img {
+  width: 300px;
+}
+
+.hero h2 {
+  font-family: var(--bodoni-moda-font);
+  /* font-weight: 600; */
+  font-size: 3rem;
+  line-height: 1.3;
+}
+
+.hero button {
+  border: none;
+  background-color: var(--dark-orange);
+  color: var(--dimmed-text-color);
+  padding: 1.5em;
+  border-radius: 10px;
+  margin: 1.2rem auto;
+}
+
+.video-section {
+  padding: 2rem;
+  display: flex;
+}
+
+.video-container {
+  margin: auto;
+}
+
+.video-container iframe {
+  border-radius: 10px;
+  width:840px;
+  height:472px;
+}
+
