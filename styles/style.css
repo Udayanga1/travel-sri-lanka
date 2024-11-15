@@ -165,12 +165,30 @@ body {
 
 .testimonials .image-section {
   height: 450px;
-  border: 1px red solid;
   overflow: hidden;
 }
 
 .testimonials .image-section img {
   width: 100%;
   object-fit: cover;
-  
+}
+
+.table-wrapper {
+  width: 840px;
+  margin: 4rem auto;
+  background-color: white;
+  color: rgba(38, 38, 38, 0.886);
+  padding: 1rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.table-wrapper table {
+  border-collapse: collapse;
+  border-color: rgb(68, 50, 185);
+  font-size: 0.75rem;
+}
+
+.table-wrapper table th, .table-wrapper table td {
+  padding: 3px 5px;
+  text-align: start;
 }
