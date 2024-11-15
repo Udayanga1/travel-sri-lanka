@@ -39,7 +39,7 @@ body {
   width: 300px;
 }
 
-.hero h2 {
+.hero h2, .features h2 {
   font-family: var(--bodoni-moda-font);
   /* font-weight: 600; */
   font-size: 3rem;
@@ -70,6 +70,10 @@ body {
   height:472px;
 }
 
+.gallery {
+  padding-bottom: 2rem;
+}
+
 .gallery h2 {
   font-family: var(--bodoni-moda-font);
   font-size: 5.5rem;
@@ -86,6 +90,7 @@ body {
   justify-content: space-between;
   /* grid-template-columns: 1fr 1fr 1fr; */
   margin: 2rem auto;
+  height:310px;
 }
 
 .gallery .image-section > div {
@@ -93,9 +98,48 @@ body {
   overflow: hidden;
   width: 270px;
   height: 310px;
+  border-radius: 10px;
 }
 
 .gallery .image-section img {
   height: 100%;
   object-fit: cover;
 }
+
+.features h2 {
+  margin-bottom: 0;
+}
+
+.features p {
+  color: var(--dimmed-text-color);
+}
+
+.items-wrapper {
+  width:840px;
+  margin: 3rem auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.features .items-wrapper .item {
+  background-color: var(--light-orange);
+  width: 270px;
+  height: 150px;
+  border-radius: 2px;
+}
+
+.camera-icon {
+  padding-top: 1.25rem;
+}
+
+.camera-icon h4 {
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.838);
+  margin: 1em;
+}
+
+.camera-icon p {
+  color: rgba(255, 255, 255, 0.756);
+  font-size: 0.7rem;
+}
+
