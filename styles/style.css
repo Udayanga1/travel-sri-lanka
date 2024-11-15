@@ -192,3 +192,65 @@ body {
   padding: 3px 5px;
   text-align: start;
 }
+
+footer {
+  color: var(--dimmed-text-color);
+  text-align: start;
+  margin: 3rem;
+}
+
+.footer-upper {
+  display: flex;
+  justify-content: space-between;  
+  padding-bottom: 2rem;
+}
+
+.footer-upper .contact-details h3 {
+  font-weight: 500;
+  margin-top: 0;
+}
+
+.footer-upper .contact-details p {
+  font-size: 0.75rem;
+  line-height: 1.7;
+  margin: 1.5rem 0;
+}
+
+.footer-upper .social-media-links img {
+  height: 20px;
+  margin-right: 10px;
+}
+
+.footer-upper .site-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.footer-upper .site-links a {
+  text-decoration: none;
+  color: var(--dimmed-text-color);
+  font-size: 0.75rem;
+  line-height: 2.5;
+}
+
+footer hr {
+  margin: 2rem 0;
+}
+
+.footer-lower {
+  font-size: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-lower a {
+  text-decoration: none;
+  color: var(--dimmed-text-color);
+}
+
+.footer-lower > div {
+  display: flex;
+  gap: 2rem;
+}
+
+
